@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "business_directory_rn",
+    "name": "business-directory-rn",
     "slug": "business-directory-rn",
-    "scheme": "business_directory_rn",
+    "scheme": "business-directory-rn",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -43,7 +43,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "7e8e99ab-bf0c-46c2-88d5-523e8a1f96f4"
+       
       }
     },
     "owner": "alton123"
