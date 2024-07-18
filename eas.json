@@ -3,7 +3,10 @@
       "preview": {
         "android": {
           "buildType": "apk"
-        }
+        },
+        "env": {
+        "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_YmVsb3ZlZC1odW1wYmFjay04OS5jbGVyay5hY2NvdW50cy5kZXYk"
+      }
       },
       "preview2": {
         "android": {
