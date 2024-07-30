@@ -69,7 +69,7 @@ export default function Category({ explore = false, onCategorySelect }) {
           <CategoryItem
             category={item}
             key={index}
-            onCategoryPress={(category) => onCategoryPressHandler(item)}
+            onCategoryPress={() => onCategoryPressHandler(item)}
           />
         )}
       />

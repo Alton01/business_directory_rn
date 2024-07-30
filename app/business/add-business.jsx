@@ -124,7 +124,14 @@ export default function AddBusiness() {
       "Your Business Listing Has Been Added..",
       ToastAndroid.LONG
     );
-    router.push("/home");
+    setName("");
+    setAddress("");
+    setContact("");
+    setWebsite("");
+    setAbout("");
+    setCategory("");
+    setImage(null);
+    router.replace("/home");
   };
 
   return (
